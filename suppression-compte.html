@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Suppression de compte - SwapAnime</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f7f7fb;
+        --text: #17171f;
+        --muted: #5f6472;
+        --card: #ffffff;
+        --border: #dedfea;
+        --accent: #7c3aed;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #17171f;
+          --text: #f5f5fa;
+          --muted: #b6b8c6;
+          --card: #222230;
+          --border: #343449;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.6;
+      }
+
+      main {
+        width: min(820px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 48px 0;
+      }
+
+      header,
+      section {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 24px;
+        margin-bottom: 16px;
+      }
+
+      h1,
+      h2 {
+        line-height: 1.2;
+        margin: 0 0 12px;
+      }
+
+      p,
+      ul,
+      ol {
+        margin: 0 0 12px;
+      }
+
+      a {
+        color: var(--accent);
+        font-weight: 650;
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+
+      .warning {
+        border-color: #f59e0b;
+        background: #fff7e6;
+        color: #3b2a05;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .warning {
+          background: #3a2b12;
+          color: #fff2d1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Suppression de compte SwapAnime</h1>
+        <p class="muted">Dernière mise à jour : 16 mai 2026</p>
+        <p>
+          Cette page permet aux utilisateurs de demander la suppression de leur
+          compte SwapAnime et des données associées, y compris s’ils n’ont plus
+          accès à l’application.
+        </p>
+      </header>
+
+      <section>
+        <h2>Suppression depuis l’application</h2>
+        <ol>
+          <li>Ouvrir SwapAnime.</li>
+          <li>Aller dans Profil.</li>
+          <li>Ouvrir la zone Réinitialisation.</li>
+          <li>Sélectionner Supprimer mon compte.</li>
+          <li>Confirmer la suppression définitive.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Demande depuis le web</h2>
+        <p>
+          Si vous n’avez plus accès à l’application, envoyez une demande à :
+          <a href="mailto:swapanimes@gmail.com?subject=Suppression%20de%20compte%20SwapAnime">swapanimes@gmail.com</a>
+        </p>
+        <p>
+          Indiquez l’adresse email utilisée pour votre compte SwapAnime afin que
+          nous puissions identifier le compte à supprimer.
+        </p>
+      </section>
+
+      <section>
+        <h2>Données supprimées</h2>
+        <ul>
+          <li>Compte utilisateur et identifiants associés.</li>
+          <li>Profil, pseudo, nom affiché et avatar si fournis.</li>
+          <li>Favoris, watchlist, tier lists, tournois et préférences de découverte.</li>
+          <li>Données cloud liées au compte dans Supabase.</li>
+        </ul>
+        <p>
+          Les pistes audio importées localement restent sur l’appareil de
+          l’utilisateur et peuvent être supprimées en désinstallant l’application
+          ou via les réglages du système.
+        </p>
+      </section>
+
+      <section>
+        <h2>Délai de traitement</h2>
+        <p>
+          Les demandes de suppression envoyées par email sont traitées dans un
+          délai raisonnable, au plus tard sous 30 jours, sauf obligation légale
+          nécessitant une conservation plus longue.
+        </p>
+      </section>
+
+      <section>
+        <h2>Politique de confidentialité</h2>
+        <p>
+          Consulter la
+          <a href="index.html">politique de confidentialité SwapAnime</a>.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
